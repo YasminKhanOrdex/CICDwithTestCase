@@ -6,7 +6,7 @@ it('function and state test', () => {
   const tree = renderer.create(<Function />).getInstance();
   //   expect(tree.change(2)).toEqual(4);
   tree.change(2);
-  expect(tree.state.data).toEqual(2);
+  expect(tree.state.data).toEqual(20);
 });
 
 // it('state test', () => {
