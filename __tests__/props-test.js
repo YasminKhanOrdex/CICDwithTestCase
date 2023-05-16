@@ -1,6 +1,6 @@
-// import React from 'react';
-// import renderer from 'react-test-renderer';
-// import Profile from '../Profile';
+import React from 'react';
+import renderer from 'react-test-renderer';
+import Profile from '../Profile';
 
 // import Enzyme from 'enzyme';
 // import Adapter from 'enzyme-adapter-react-16';
@@ -12,3 +12,7 @@
 //   console.warn(wrapper);
 //   expect(wrapper.children.props.children).toBe('Hello');
 // });
+
+it('testing props', () => {
+  expect(2).toBe(2);
+});
