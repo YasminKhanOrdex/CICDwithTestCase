@@ -9,7 +9,7 @@
     "start": "react-native start",
     "test": "jest",
     "test-ci": "jest --ci",
-    "build": "react-native bundle --platform android --entry-file index.js --dev false --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && appcenter build queue --app 'Ordex-Technology/CICDwithTestCase' --branch 'main' --debug"
+    "build": "npm test && react-native bundle --platform android --entry-file index.js --dev false --bundle-output android/app/src/main/assets/index.android.bundle --assets-dest android/app/src/main/res && appcenter build queue --app 'Ordex-Technology/CICDwithTestCase' --branch 'main' --debug"
   },
   "dependencies": {
     "@babel/preset-react": "^7.18.6",
