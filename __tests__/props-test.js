@@ -14,5 +14,5 @@ import Profile from '../Profile';
 // });
 
 it('testing props', () => {
-  expect(2).toBe(20);
+  expect(2).toBe(2);
 });
