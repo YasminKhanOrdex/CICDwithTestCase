@@ -13,4 +13,6 @@ if [ $? -eq 0 ]; then
 else
   # Exit with code 1 to indicate failed build
   exit 1
+  echo "Tests failed. Skipping the build."
+
 fi
