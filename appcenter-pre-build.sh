@@ -8,8 +8,9 @@ npm run test-ci
 
 # Check if all tests passed
 if [ $? -eq 0 ]; then
-  # Build the app
-  npm run build
+  # Exit with code 0 to indicate successful build
+  exit 0
 else
-  echo "Tests failed. Skipping the build."
+  # Exit with code 1 to indicate failed build
+  exit 1
 fi
