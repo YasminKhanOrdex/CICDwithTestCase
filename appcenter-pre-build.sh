@@ -9,6 +9,7 @@ npm run test-ci
 # Check if all tests passed
 if [ $? -eq 0 ]; then
   # Exit with code 0 to indicate successful build
+  echo "Tests Passed."
   exit 0
 else
   # Exit with code 1 to indicate failed build
